@@ -148,7 +148,7 @@ header a{
     justify-content: space-between;
     text-align: center;
     display: flex;
-    padding:10px 25px;
+    padding:35px;
 }
 .imagenes{
     flex-grow:3;
