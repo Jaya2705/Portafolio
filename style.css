@@ -38,9 +38,9 @@ header a{
     
 }
 .i{
-    margin-right: 660px;
+    margin-right: 670px;
     display: flex;
-    color:#C31A27;
+    color:#22AAA1;
     font-size:38px;
 }
 .head{
@@ -76,7 +76,7 @@ header a{
     width:auto;
 }
 .derecho h3{
-    color:#C31A27;
+    color:black;
     font-size: 16px;
 }
 .derecho h1{
@@ -91,7 +91,7 @@ header a{
     text-align: justify;
 }
 .derecho a{
-    background-color: #C31A27;
+    background-color: #22AAA1;
     color:white;
     padding: 8px 20px;
     font-size: 10px;
@@ -100,19 +100,21 @@ header a{
 .derecho a:hover{
     background-color: white;
     color: black;
-    border:2px solid #C31A27;
+    border:2px solid #22AAA1;
 }
 .skills{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap:15px;
 }
 .card{
     background-color: #1d1a20;
     color:#BFBDC1;
     padding:35px 25px;
-    flex-grow: 1;
+    flex-basis:30%;
     flex-direction: row;
+    justify-content: space-between;
 }
 .card p{
     font-size: 14px;
@@ -133,8 +135,8 @@ header a{
 }
 
 .card:hover{
-    background-color: #64596f;
-    color: white;
+    background-color: #9197AE;
+    color: black;
 }
 
 .blog{
@@ -188,7 +190,7 @@ header a{
 }
 .Contact{
     flex-grow: 1;
-    background-color: #C31A27;
+    background-color: #22AAA1;
     padding:0px 25px;
     color:white;
     flex-grow: 1;
@@ -206,7 +208,7 @@ header a{
     padding:15px;
 }
 .right h2,p{
-    text-align: center;
+    text-align: left;
 }
 .left{
     text-align: center;
@@ -215,38 +217,41 @@ header a{
     gap:15px;
 }
 .left h2{
-    margin:15px;
+    margin:10px;
 }
 .left input{
-    border-radius:10px;
-    border:2px solid grey;
-    width:250px;
+    border:none;
+    border-bottom:2px solid #D3D3D3;
+    width:280px;
     height: 20px;
-    margin:15px;
+    margin:10px;
+    outline:none;
     font-size:16px;
     padding: 12px;
-
 }
 .left textarea{
-    border-radius:10px;
-    border:2px solid grey;
-    width:260px;
+    border:none;
+    resize: none;
+    border-bottom:2px solid #D3D3D3;
+    outline:none;
+    width:290px;
     height: 85px;
-    margin:15px;
+    margin:10px;
     font-size:16px;
 }
 button{
-    background-color: #C31A27;
+    background-color: #22AAA1;
+    border:none;
     padding: 10px 20px;
     color: white;
     font-size: 18px;
-    font-weight: 600;
-    border-radius: 10px;
-    margin:15px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    font-weight: 400;
+    border-radius: 20px;
+    margin:10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 form{
     margin-top: 20px;
@@ -254,7 +259,7 @@ form{
 button:hover{
     background-color: white;
     color: black;
-    border:2px solid #C31A27;
+    border:2px solid #22AAA1;
 }
 .left h2{
     display: flex;
@@ -264,15 +269,15 @@ button:hover{
     display: inline;
 }
 .datos{
+    text-align: left;
     display: flex;
+    margin-bottom:5px;
     flex-grow:1;
-    margin:25px;
-    gap:5px;
     padding:10px;
     background-color: white;
 }
 .c{
-    color: #C31A27;
+    color: #22AAA1;
     font-size: 30px;
     align-self: center;
     margin-right:10px;
@@ -284,17 +289,27 @@ button:hover{
     background-color: #0A0F0D;
     color: white;
     text-align: center;
-    padding:20px;
+    padding:30px;
 }
-.foot a{
-    background-color: #C31A27;
+.foot .home{
+    background-color: #22AAA1;
     color: white;
+    font-size: 16px;
     padding: 10px;
-    margin-top: 5px;
+    margin: 5px;
     text-decoration: none;
 }
-.foot a:hover{
+.foot p{
+    text-align: center;
+}
+.foot .home:hover{
     background-color: white;
     color: black;
-    border:2px solid #C31A27; 
+    border:1px solid #22AAA1; 
+}
+.foot .s{
+    padding: 10px;
+    font-size: 20px;
+    margin-top:-5px;
+    color:white;
 }
